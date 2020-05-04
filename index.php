@@ -8,6 +8,7 @@ function dd($vars)
 
     echo '</pre>';
     exit;
+    
 };
 
 include_once('routes.php');
