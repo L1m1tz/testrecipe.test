@@ -19,8 +19,8 @@ if (array_key_exists('controller',$_GET) && array_key_exists('method',$_GET))
             $controller = new HomeController();
             break;
         case 'post':
-            include_once('controllers/postController.php');
-            $controller = new PostController();
+            include_once('controllers/recipeController.php');
+            $controller = new RecipeController();
             break;
         default:
             include_once('controllers/notFoundController.php');
