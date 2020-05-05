@@ -1,6 +1,6 @@
 <?php
 
-class PostController
+class RecipeController
 {
 
     public function show(){
